@@ -1,5 +1,5 @@
 var convert = require('./convert'),
-    func = convert('sortedUniqBy', require('../sortedUniqBy'));
+    func = convert('trimChars', require('../trim'));
 
 func.placeholder = require('./placeholder');
 module.exports = func;
